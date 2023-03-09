@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.color1 {color: #003633;}
+.color2 {color: #006a7f;}
+.color3 {color: #ff875f;}
+.color4 {color: #ffd759;}
+.color5 {color: #e6ffa3;}
+
+ol, 
+ul, 
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+input,
+button,
+textarea {
+    color: black;
+    border: none;
+    outline: none;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+/* Sección del Menú */
+.menu {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+}
+
+.menu_header img {
+    height: 9rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu_list,
+.menu_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu_list_item,
+.menu_list_item_contacto {
+    color: #F2F2F2;
+}
+
+.menu_list_item a {
+    font-weight: bold;
+}
+
+.menu_list_item:hover,
+.menu_list_item_contacto:hover,
+.menu_nav a:hover {
+    color: #F2CB05;
+}
+
+.menu_list_item_contacto {
+    display: none;
+}
+
+/* Sección del Inicio */
+.inicio_div {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #CD921E;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.inicio_foto {
+    width: 18em;
+    border-radius: 50%;
+}
+
+.inicio_saludo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.inicio_bio{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+}
+
+.inicio_redes{
+    display: flex;
+    gap: 2rem;
+}
+
+.inicio_redes_item img {
+    width: 20px; 
+    height: 20px;
+  }
+
+.inicio_redes_item a:hover {
+    color: #f20564;
+}
+
+/* Sección de Sobre mí */
+.about {
+    padding: 2rem;
+    background: linear-gradient(#CD921E, #FEFEFE);
+}
+
+.about_div {
+    display: flex;
+    gap: 1rem;
+}
+
+.about_titulo {
+    font-size: 2rem;
+    color: #0D0D0D;
+}
+
+.about_parrafo {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1;
+    color: #333;
+}
+
+/* Sección de Skills */
+.skills{
+    padding: 2rem;
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_titulo{
+    display: flex;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+}
+
+.skills_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skilss div:hover {
+    border-color: #f20564;
+}
+
+.skills_box {
+    position: relative;
+    width: 15%;
+    height: 10rem;
+    padding: 2.5rem;
+    border: 2px solid #7B3E8C;
+    border-radius: 10px;
+}
+
+
+.skills_box ul {
+    position: absolute;
+    bottom: 1rem;
+}
+
+.skills_nombre {
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    color: #7B3E8C;
+    text-shadow: 0 0 7px 
+}
+
+/* Sección de Contacto */
+.form {
+    background: linear-gradient(#FEFEFE, #7B3E8C);
+    padding: 4rem 2rem;
+}
+
+.form_contacto {
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.form_text {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_titulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form_subtext {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: .3rem;
+}
+
+.formulario {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input {
+    position: relative;
+}
+
+.form_input,
+.form_textarea {
+    padding: 1rem;
+    width: 100%;
+}
+
+.form_textarea{
+    resize: none;
+}
+
+.form_boton {
+    width: 25%;
+    padding: .8rem;
+    color: #f20564;
+    background-color: #fff;
+    border: 1px solid #f20564;
+    cursor: pointer;
+}
+
+.form_boton:hover {
+    color: #fff;
+    background-color: #f20564;
+    border: 1px solid #0D0D0D;
+}
+
+/* Sección de Footer */
+footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #333;
+}
+
+.footer {
+    color: #fff;
+}
